@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    /*vertical-align: middle;*/
+    display: flex;
+    font-family: 'Poppins';
+}
+/*
+.container {
+    background-color: #f6f2f2;
+}*/
+.card {
+    margin: auto;
+    max-width: 1180px;
+    width: 100%;
+    /*box-shadow: 0 5px 20px 0 rgba(230, 102, 102, 0.19);*/
+    border-radius: 20px;
+}
+@media(max-width:767px){
+    .card{
+        margin: 1rem auto;
+    }
+}
+.cart {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: 1px solid #ddd;  
+}
+@media(max-width:767px){
+    .cart{
+        padding: 1rem;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 0.7rem;
+    }
+}
+.order {
+    background-color: #e9ecef;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1.5rem;
+}
+@media(max-width:767px){
+    .order{
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 0.7rem;
+    }
+}
+.order-title {
+    margin-top: 30px;  
+}
