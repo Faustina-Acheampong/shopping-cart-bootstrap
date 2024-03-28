@@ -26,7 +26,8 @@ body {
     padding: 1.5rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    border: 1px solid #ddd;  
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    outline: none;  
 }
 @media(max-width:767px){
     .cart{
@@ -36,6 +37,7 @@ body {
     }
 }
 .order {
+    width: 100%;
     background-color: #e9ecef;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -49,4 +51,32 @@ body {
 }
 .order-title {
     margin-top: 30px;  
+}
+select {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.130);
+    padding: 8px 8px;
+    outline: none;
+    background-color: #ffffff;
+} 
+input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.130);
+    padding: 8px 8px;
+    outline: none;
+    background-color: #ffffff;
+}
+.order-btn {
+    background-color: #208b3a;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+    padding: 8px;
+    border: hidden;
+    font-weight: 700;
+}
+.savings {
+    color:#208b3a;
+    text-align: center;
+    padding-top: 1.5rem;
 }
